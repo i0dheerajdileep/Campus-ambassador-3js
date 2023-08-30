@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 
 function App() {
   return (
-    <div className='bg-black'>
+    <div className='w-screen h-full '>
       <Navbar/>
-      <h1>kjef</h1>
+      <Hero/>
     </div>
   )
 }
