@@ -4,8 +4,9 @@ import logo from '../assets/dlogo.png'
 function Navbar() {
   const navItems = [
     { title: 'Home', link: '/' },
+    { title: 'Roles', link: '/role' },
     { title: 'Leaderboard', link: '/leaderboard' },
-    { title: 'Contact', link: '/contact' }
+    { title: 'Contact', link: '/contact' },
   ];
 
   return (
